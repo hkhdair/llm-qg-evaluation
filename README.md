@@ -30,5 +30,6 @@ This project implements an automated system for generating and evaluating Multip
 1. Create a `.env` file with your OpenAI API key:
 ```env
 OPENAI_API_KEY="your-api-key-here"
+```
 
-or if you open with Google Colab, don't forget to add your OpenAI key
+Or if you open with Google Colab, don't forget to add your OpenAI key
