@@ -1,0 +1,8 @@
+Knowledge
+K1. Identify and use the correct syntax of a common programming language.
+K2. Recall and use typical programming constructs to design and implement simple software solutions.
+K3. Reproduce and adapt commonly used basic algorithms.
+K4. Explain the importance of programming style concepts (documentation, mnemonic names, indentation).
+Skills
+S1. Utilise pseudocode and/or algorithms as a major program design technique.
+S2. Write and implement a solution algorithm using basic programming constructs.

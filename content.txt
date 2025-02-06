@@ -1,0 +1,826 @@
+Topic 1: Introduction to Problem Solving, Programming and Software Dev Methodologies
+What is Problem Solving?
+•“Finding a solution to a difficult or complex question or situation; to engage in the actions or thoughts necessary to discover solutions to problems.”
+
+Types of Problems
+•There are lots of different types of problems we can solve -and the difficulty of each problem can change dramatically. For example, let's try solving some of these problems…
+If I have $50 and purchase 3 boxes of chocolates on sale for $9 each, how much change will I receive?
+How can we reverse climate change?
+How can we ensure we get good results for all the courses we are studying?
+
+Routine and Non-Routing Problems
+•Routine (simple)problems are the kinds of problems have simple solutions and that occur regularly.
+•Non-Routine(complicated &complex)problems are more difficult and often require devisingstrategies to solve.
+•Then there are wicked problems…
+
+Characteristics of Wicked Problems
+•Difficult to define.
+•Have many interdependencies and are often multi-causal.
+•Resolution attempts often result in unforeseen consequences.
+•Often not stable.
+•No clear solution.
+•Socially complex.
+•Responsibility of multiple domains.
+•(Some) characterized by chronic policy failure.
+
+The Importance of Problem Solving
+“Regardless of profession or title, at some level we are all hired to do the same job. We are all problem solvers, paid to anticipate, identify, prevent, and solve problems within our areas of expertise.
+This applies to any job, at any level, in any organization, anywhere in the world, and being aware of this is absolutely vital to job search and career success in any field.”
+
+The Six-Step Problem Solving Process
+•There are many different problem-solving methods, and the six-step method is just one of them.
+•The problem for most people is that they do not use one process to solve problems and issues or to make decisions.
+•Another problem is that people are not consistent in how they solve problem. They do not find something that works and then do it the same way over and over to be successful.
+•The Six-Step Problem-Solving Process is as follows:
+1.Identify the problem,
+2.Analyse the problem,
+3.Generate potential solutions,
+4.Select and plan a solution,
+5.Implement the solution,
+6.Evaluate the solution
+Problem Solving Strategies and Techniques
+•Some of the most commonly used problem solving strategies include:
+•Trial and error,
+•Using some form of algorithmto reach a solution, and
+•Using some form of heuristicto reach a solution.
+
+Programming Domains
+•When we write computer programs to solve problems, these problems can be in a wide variety of different areas, from controlling nuclear power plants to providing video games for mobile devices.
+•However, it makes sense for us to break up software into a few broad categories, broadly speaking these are:
+•Scientific Applications,
+•Business Applications,
+•Artificial Intelligence,
+•Systems Programming, and
+•Web Software.
+
+Programming Language Categories
+•And just like there are categories of applications, there are categories of programming languages which may be suited to writing applications in these different domains. For example:
+•Imperative programminglanguages:
+•Imperative languages include procedurallanguages (Pascal, C etc.), object orientedlanguages (Java, C++ etc.) and scriptinglanguages (Python, Perl, JavaScript etc.)
+•These are the most commonly used type of programming language and are what we'll be focussing on in this course.
+•Functional programminglanguages:
+•These are languages which operate mainly on mathematical functions, so you define a function, provide it with input, and receive the output.
+•These tend to be used more for scientific / mathematical applications.
+•Logic programming languages:
+•These are rule based languages, where the specific order of execution is not specified, and the language must choose the order in which the rules are applied to produce the desired outcome of the program.
+
+Note: We do not consider Mark-up Languages (HTML, XML etc.)to be programming languages, because you cannot perform calculations with them -like they sound, they are for 'mark-up' (i.e. 'tagging') of data.
+
+Software Development Methodologies
+•Largely regardless of programming domain or language, we tend to use one of a handful of techniques to successfully design software that functions as expected.
+•The most commonly used development methodologies are:
+•The Waterfall model,
+•Agile development, and
+•Scrum.
+•We'll take a brief look at the main characteristic of each methodology over the next few slides, and then we can have a chat about which one we think is the best method and why that might be.
+
+Topic 2: Introduction to Python, Operators and Data Types
+What Type of Programming Language is Python?
+•Python is an imperative, general purpose language which we can write pretty much any type of application in.
+•Business apps, games, scientific, web, data analytics, artificial intelligence… The list goes on. We can write them all in Python if we wanted to due to the language’s rich set of features.
+•However -that doesn’t necessarily mean that it’s the BEST language to write an app in any given field…
+•…but it IS a very useful all-rounder, with a clean, attractive syntax that makes it easy to learn and use.
+
+Executing Programs
+•There are three different ways in which we can convert a program in a high-level language like Python into a version that can be executed on a CPU:
+•Compilation
+•All program code is converted into machine code before the program executes. Once a program has been compiled into machine code it is ready to be executed -this typically means that the code can execute very quickly.
+•Pure Interpretation
+•Each line of program code is converted into machine code for execution (one line at a time) as the program executes. This typically means that the code executes less quickly than compilation.
+•https://docs.python.org/3/tutorial/
+•Hybrid Implementation
+•In hybrid implementation, the program code is translated into an intermediate programming language which is designed to be able to be interpreted quickly before the program executes. Once this has been done, it is this intermediate codethat is actually interpreted into machine code. This typically results in code that executes relatively quickly.
+
+Note: So the execution speed hierarchy from fastest to slowest is: Compilation, then Hybrid Interpretation, then Pure Interpretation.
+First program in Python
+•The first program any programmer should write in any programming language (even one they know the language well and have just installed the development tools) is called HelloWorld.
+•As you know, it prints the text “Hello, World!” to the screen.
+•The reason we should write this program first is two-fold:
+1.It’s probably the simplest program we can possible write, and
+2.When it works, it proves that our development environment has been installed and set up correctly.
+•In Python, the ‘hello world’ program is simply this:
+print("Hello, World!")
+•When we run the program, it prints the message.
+
+Data Types
+•A variable in any programming language is a named piece of computer memory, containing some information inside.
+•Variables usually are of a certain type, which define their representation, size and the operations allowed.
+•Python is a strongly typed language, which means that variables do have a type and that the type matters when performing operations on a variable.
+•Python is also a dynamically typed language, which means that the type of the variable is determined only during runtime. In fact, as you will see shortly, you can change a variable’s type at runtime (dynamically) by assigning a new value.
+Basic Data Types: bool
+•bool type (Boolean data type) is a data type that has one of two possible values(usually denoted True and False) which is intended to represent the two truth values of logic.
+•If we enter: type(True) or type(False)into the Python shell it responds:
+<class 'bool’>
+•We will be using these values mostly in branching and looping constructs.
+Basic Data Types: int
+•int data (short for integer) is just a whole number without any fractions or decimal places or anything like that.
+•If we enter: type(1) or type(-5) into the Python shell it responds:
+<class 'int'>
+•Floats can generally hold any value which can be represented as an int, but vice-versa you would lose the fractional part. I.e. we can decide to convert the int value 123into a float 123.0 without losing any data, but we can't convert the float value 123.4into an int without losing the .4 part.
+•If we enter: type(1.23) into the Python shell it responds:
+<class 'float'>
+Note: A widening conversion, say from intto float is nearly always safe (no data lost), while a narrowing conversion, such as from float to intis typically NOT safe.
+Basic Data Types: str
+•Strings are containers for characters. The actual name of the string type in Python is str.
+•Strings can be of any length up to the available RAM you have available on your system, so if you really wanted to store several copies of the book "War and Peace" in a single string, you could.
+•If we enter: type("I bet this is a string") into the Python shell it responds:
+<class 'str'>
+Basic Data Types: str(Cont'd)
+•When we specify str data, we must enclose it in some kind of quotes so the interpreter knows to treat it as string.
+•We can use quotation marks: "like this"
+•Or we can use single quotes: 'like this'
+•Or we can use three-sets of quotation marks: 
+"""like this""" or '''like this'''
+•If we want to actually use quotes in our data, for example:
+"I'm putting this in "quotes" because I can."
+•Then we can either do what's called escaping the quotes we want to include in our data by placing a blackslash( \) before them, so our example becomes:
+
+"I'm putting this in \"quotes\" because I can."
+Single quote in I'm
+Backslashes directly before any quotation mark we want included
+Basic Data Types: str(Cont'd)
+•If we decide to enclose our string in a set of three quotation marks, then the formatting of our string is preserved across multiple lines and we don't need to escape any 'or "characters. For example:
+"""I'm putting this in "quotes"
+because I can."""
+Basic Data Types: str(Cont'd)
+•The reason it's important to put string data in quotation marks of some kind is so that the interpreter knows how to deal with the data.
+•For example if we enter the following into the Python command line we get a valid result:
+>>> 2.2 + 3.3
+5.5
+•But how about if you enter the following?
+>>> 2.2 + "Bob"
+•What do you think will happen?
+Basic Data Types: str(Cont'd)
+•What we get it this:
+>>> 2.2 + "Bob"
+Traceback(most recent call last):
+File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+•Which basically means that Python doesn't know how to use the + (plus) operator with a floatand a str.
+•Okay, so now let's see if you can guess what happens when you enter this:
+
+>>> "2.2" + "Bob"
+Standard Mathematical Operators
+•Now we know about some of the most common types of data we might want to work with, it's time to move on to some of the operators than help us perform calculations.
+•If you've programmed in any language before then you'll already be familiar with many of them, although there are some Python-specific operators, too.
+•The standard "big four" operators are:
+Operator Symbol	Operator Name	Example
++	Plus	10 + 2 equals 12
+-	Minus	10 -2 equals 8
+*	Multiply	10 * 2 equals 20
+/	Divide	10 / 2 equals 5.0
+
+Operator Precedence
+•The order in which operators are applied to data is really important, and there's a simple rule that governs which "value-pairs" in a calculation get calculated before others.
+•For example, what's the result of the following calculation?
+2 + 10 * 5 = ?
+•Clue: BODMAS
+•BODMAS acronym: B –Brackets, O –Order of powers or roots, D –Division, M –MultiplicationA –Addition, and S –Subtraction.
+•First, we solve brackets, then powers or roots, then division or multiplication (whichever comes first from the left side of the expression), and then finally, subtraction or addition, whichever comes on the left side.
+Working With Variables
+•A variable should be understood as a named container for a piece of data.
+•For example, to define (i.e. create) a variable called luckyNumberwhich stores the number 6 we could use the command:
+
+luckyNumber= 6
+•Weknow that 6 is an int-but how does Python know that you're storing an integer? It looks at the right-hand side of the expression (the value) and determines the type of data automatically.
+•If we now enter: type(luckyNumber), it says:
+<class 'int'>
+Working With Variables (Cont'd)
+•Now if we want to change the value of the luckyNumbervariable, we can simply give it a new value by issuing a statement such as:
+luckyNumber= 16
+•And to display the number we can use the print()function like this:
+print(luckyNumber)
+•Which will give the following output:
+>>> print(luckyNumber)
+16
+•The original value of luckyNumberwill be lost(is overwritten).
+Working With Multiple Variables
+•Let's say we create two variables like this:
+firstNum= 3
+secondNum= 4
+•Now we can add them up and print out the sum like this:
+print(firstNum+ secondNum)
+•In the above scenario we'll get 7
+•What if we said: print(firstNum-secondNum)?
+•What about: print(firstNum* secondNum)?
+•Now what happens when we use the divideoperator?
+Working With Multiple Variables (Cont'd)
+•In Python 3, when we divide one int(eger) by another int-the result WILL ALWAYS BE A FLOAT!
+•This is NOT THE SAME AS MOST LANGUAGES!
+•Python 3 changes the result of ANY division to a float.
+•Let's take a look at an example…
+UNUSUAL!
+Working With Multiple Variables (Cont'd)
+•Try this:
+first = 2
+second = 4
+result = first / second
+print(result) 
+type(result) 
+•Then this:
+first = 2
+second = 4 
+result = second / first
+print(result)
+type (result)
+•In summary -all standard division results in a value that is a float, even if the value involved are integers. In most languages the integer value 2 divided by the integer value 4 would be 0, and 4 divided by 2 would be 2 (NOT2.0)!
+2 / 4 = 0.5
+<class 'float'>
+4 / 2 = 2.0
+<class 'float'>
+While normal for Python, this is not normal in most languages
+Working With Multiple Variables (Cont'd)
+•But… we can use an integer division operator instead for division to act as we might expect in to -which in Python 3 is the double-slash:
+first = 3
+second = 4
+result = first // second
+print(result) 
+type(result) 
+3 // 4 = 0
+<class 'int'>
+While used in Python, this operator doesn't even exist in most languages
+30 // 5 = 6
+<class 'int'>
+Working With Multiple Variables
+•We can change the type of our variable whenever we choose.
+•This makes the Python language very flexible, but if we're not careful it can lead to errors-for example, the following sequence of statements is legal:
+luckyNumber= 6
+luckyNumber= 6.0
+luckyNumber= "six"
+luckyNumber= "elephants"
+•But what happens if we divided a value by our luckyNumber variable after this sequence of statements?
+•Nothing great -because you can't divide a value by a string. So in this instance, we'd need to either keep track of the typeof our luckyNumber variable, or wrap its usage in exception handling code to make it safer to use (more on which later in this course).
+The inputFunction
+•When we want to get console input from the user, we use the input method.
+•We typically assign the result of running the input method to a variable as we just saw when we wrote:
+
+name = input("Please enter your name: ")
+print("Hello, " + name + "!")
+•When using the input function, the typeof the data returned is always a string.
+•This will cause us problems if we did something like this:
+number = input("Please enter a number between 1 and 10: ")
+sum = number + 5
+print("Adding 5 to that gives: " + sum)
+The reason we're going to have a problem is because we're getting some data
+and assigning it to a variable called number
+•…and then we're trying to add together that number variable and an integer
+but the input function converts whatever data is entered into a string.
+And as we saw previously we can't add an int and a string together.
+The input Function (Cont'd)
+•So how do we get around this problem?
+•We have to convert the entered data into the type we want it to be!
+•For example:
+number = input("Please enter a number between 1 and 10: ")
+sum = int(number)+ 5
+print("Adding 5 to that gives: " + sum)
+•The int function attempts to convert whatever is in the brackets after it into an integer.
+•It will fail if we give it data which cannot be converted into an int, for example if we wrote the following then the conversion would fail:
+number = int("This won't convert to int!")
+The inputFunction (Cont'd)
+•We could also do it like this, if we wanted to:
+number = int( input("Please enter a number between 1 and 10: ") )
+sum = number + 5
+print("Adding 5 to that gives: " + sum)
+•They both work the exam same way and provide the same result.
+•Also, this "conversion" has a special name -it's called a casting. So you might "castan intto a float" or "cast a string to an int" etc.
+String / Print Substitution
+•As we've seen, we can mix string literals (i.e. "Enter a number", "The sum is: ", "Hello!") with variables by using the + operator when either creating or printing strings:
+luckyNumber= 6
+print("My lucky number is " + str(luckyNumber))
+•Or, we could do it like this :
+luckyNumber= 6;
+sentence = "My lucky number is " + str(luckyNumber)
+print(sentence)
+•But there's another way that we can do which is by substitution -you might prefer to do things this way, it's entirely up to you.
+String / Print Substitution (Cont'd)
+•So we could write some code like this:
+num1 = int( input("Please enter the first  number: ") )
+num2 = int( input("Please enter the second number: ") )
+sum  = num1 + num2
+print("The sum of", num1, "+", num2, "is:", sum)
+•We can also achieve the same output as the above by making the final line:
+print( "The sum of {} + {} is {}".format(num1, num2, sum) )
+•Each set of curly-braces, { }, in the above line will have the relevant variable substituted in its place, in the order they're declared:
+print( "The sum of {} + {} is {}".format(num1, num2, sum) )
+
+Topic 3: Conditionals, Lists and Loops
+"if" Statements
+•Whenever we want to perform one operation or another, different operation depending on circumstances, we can use an ifstatement.
+•if statements in Python are arranged like this:
+if (some-condition-is-true):
+# do-something
+•What's really important here is that we put the colon ( :) after the closing braces of our condition, and that we tab-indentthe code that we want to run if the condition is true.
+•For example:
+
+if (3 < 4):
+print("three is less than four!")
+print("three is still less than four!")
+Note: We can perform this 'if-test' without using brackets if we want, i.e. if 3 < 4: instead of if (3 < 4):
+"if" Statements (Cont'd)
+•Python uses indentation to determine "blocks" of code, so in C/C++/Java etc. you might specify a block of code like this:
+{
+// Double-forward slashes mean a comment in C/C++/Java
+// It's the same as using the hash symbol (#) in Python
+}
+•In Python we'd do the same thing like this:
+
+# In main code here...
+# In new code block here because of indentation!
+# Still in the new code block as still indented!
+# Back to the "main" now that we're not indented anymore!
+•We'll get to "code blocks" and why they're important when we cover variable scopenext week
+Using "if" with "else"
+•Commonly we might want to do one thing under certain conditions, and something else otherwise -and the way that we do this is to use if statements in combination with else statements, like this:
+
+currentDay= "Tuesday"
+weekendStartDay= "Saturday"
+if (currentDay== weekendStartDay):
+print("Yay!")
+print("What fun stuff shall we do?")
+else:
+print("Boooo!")
+print("Work workwork... Bah!")
+print("What's for lunch?")
+Will the final print statement everrun, sometimes run or always run?
+Which one of these two blocks will run?
+The elifStatement
+•Fortunately for us, we don't have to indent things out to absurdity -we can use the elifstatement, instead.
+•For example, the previous code can now be written like this:
+
+cost = 0
+num= int( input("Please enter the number 1, 2, 3 or 4: ") )
+if (num== 1):
+cost = 1000
+elif(num== 2):
+cost = 2000
+elif(num== 3):
+cost = 3000
+elif(num== 4):
+cost = 4000
+print( "Final cost is: ${0}".format(cost) )
+Short-hand Notation to Manipulate Variables
+•A very common operation is to add some value to the existing value of a variable. We've already seen that we can do so like this:
+
+myNumber= 5
+myNumber= myNumber+ 10# myNumberis now 15
+myNumber= myNumber+ 4# myNumberis now 19
+•Because this is such a common operation, there's a "short-hand" way of doing this without having to type the variable name over and over again:
+
+myNumber= 5
+myNumber+= 10# myNumberis now 15
+myNumber+= 4# myNumberis now 19
+•Both of these pieces of code do the exact same thing-the second one is just a little bit quicker to type. You can use whichever one your prefer.
+Using OR in Python (Cont'd)
+•Now let's write some code to make sure we can see how this works in Python. Take another look at the pseudo-code below:
+
+If I am thirstyORI am too hot:
+Drink something cold.
+•If we were thirsty, but not too hot, we might write this in Python as follows:
+
+thirsty = True
+tooHot= False
+if (thirsty == True) or (tooHot== True):
+print("Hmm, I feel like having a cold drink")
+else:
+print("I don't feel like a cold drink.")
+•Which of the two print statements will get executed in the code above?
+Using OR in Python (Cont'd)
+•When we're comparing booleanvalues in an if-statement we can use a little bit of shorthand, if we'd like to, in order to save ourselves some typing.
+•For example, insteadof writing the code
+
+if (todayIsSunday== True):
+[DO-SOMETHING]
+•We could instead write:
+
+if (todayIsSunday):
+[DO-SOMETHING]
+•We can do the same to check if something is Falseby using the NOT operator, which is an exclamation mark ( ! ).
+Using AND in Python (Cont'd)
+•Let's give this a go -take a look at the following pseudo-code:
+
+If I my mobile phone has chargeANDhas signal:
+I can receive a phone call.
+Otherwise:
+I can't receive a phone call.
+•We might write this in Python codeas follows:
+
+mobileHasCharge= True
+mobileHasSignal= False
+if (mobileHasCharge== True) and (mobileHasSignal== True):
+print("Call me!")
+else:
+print("The number you have dialled cannot be reached.")
+•Which of the two print statements will get executed in the code above?
+Variables and Lists 
+•As we've seen, a variable is a named piece of data, and it usually only contains a single piece of information.
+•For example, these are all variables:
+
+total = 123
+name = "Bob"
+price = 49.95
+•A list, on the other hand, is still a named piece of data -but this time it usually contains more thana singlepiece of information, for example:
+
+beatles= ["John", "Paul", "George", "Ringo"]
+•Or it could contain a set of the last seven days temperatures:
+
+lastSevenDayTemps= [23, 25, 28, 34, 23, 23, 17]
+
+Variables and Lists (Cont'd)
+•Let's just take a quick look at our Beatles example again:
+
+beatles= ["John", "Paul", "George", "Ringo"]
+•If you've programmed before, you might recognise this looks like an array-however, while arrays are typically fixed in size Python lists are dynamic in size, and they can also store different types of data (unlike typical arrays).
+•Every item in the list has a numbered location called its index that starts at 0 and goes up to one-less-than-the-number-of-items.
+•So in the above example:
+•beatles[0] is "John",
+•beatles[1] is "Paul",
+•beatles[2] is "George", and
+•beatles[3] is "Ringo".
+Quiz: What's the value of beatles[4]?
+IndexError: list index out of range
+Creating and Working With Ranges of Numbers
+•Python allows us to create a set of integers between zero and an end value by using the range statement.
+•We can then print out that range of numbers using the printstatement, for example:
+print(list( range(5) ))
+•When we run the above command, it will display all the whole numbers from zero up until it's at "one step less than"the end value we specified, going up by 1 per time.
+•So if we run the above command, the output we'll see is:
+[0, 1, 2, 3, 4]
+Creating and Working With Ranges of Numbers (Cont’d)
+•We can also use a two parameter version of the range statement where we specify a starting value and an ending value.
+print( list( range(4, 10) ) )
+•Again, when we run the above command, it will display all the whole numbers from the first number we specified, up until it's at "one step less than"the end value we specified.
+•So if we run the above command, the output we'll see is:
+[4, 5, 6, 7, 8, 9]
+Creating and Working With Ranges of Numbers (Cont'd)
+•When we just saw the range function, we provided it:
+•A range-start value of 4, and 
+•A range-end value of 10.
+•Because we only provided two parameters (i.e. 4and 10) to the range statement, the numbers in our range increased by 1each time as the default behaviour.
+•But what if we wanted the numbers in our range to increase by 2's? Or 5's? Or 7's? In this case, we can specify a thirdparameter, which controls how much to increase the value of the numbers in our set by!
+•This might sound complicated -but it's really very simple! Try running this:
+print ( list( range(0, 10, 2) ) )
+•If we run the above command, we'll generate a set of numbers starting at 0and going up by 2each time until the value is one step less thanour end value of 10:
+[0, 2, 4, 6, 8]
+Creating and Working With Ranges of Numbers (Cont'd)
+What if we want to have our list in descending order? (i.e. start with a high
+number, and then decrease the value each time until we reach our end value
+It's easy! To count backwards from 10 to 1, we just specify:
+Our start value as 10
+Our end value as 0 , and
+Our step change as 1
+Like this:
+print ( list( range(10, 0,1) ) )
+Which will display the following output:
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+Can We Increment or Decrement Our Range By Float Values?
+•You mean, for example, can we go from 0.0 to 10.0 in steps of 0.5 like this?:
+print( list( range(0.0, 10.0, 0.5) ) )
+•Unfortunately no-the range function only works with integer data, sorry.
+•If you try it, you'll get this:
+>>> print( range(0.0, 10.0, 0.5) )
+Traceback(most recent call last):
+File "<pyshell#5>", line 1, in <module>
+print( range(0.0, 10.0, 0.5) )
+TypeError: 'float' object cannot be interpreted as an integer
+•If we really need a range of floating point values, we can either do a little bit of math to generate them from an integer range, or use numpy.arange()
+Storing a Set of Values in a List
+•So far, we've seen that we can print out a range of numbers. But if we want to, we can also storeour range of numbers in a variable, like this:
+
+myList= range(0,15,3) #Start at 0, end before 15, step by 3
+print(myList)
+•However, when we print this our we get:
+range(0, 15, 3)
+•That might not be quite what we want… To make the myListvariable actuallycontain the generated list we need to cast (i.e. convert) it to a list, like this:
+
+myList= list( range(0,15,3) )
+print(myList) # Prints [0, 3, 6, 9, 12]
+•Once we have a listof data elements, we can access each individual element by specifying the elements index using square-brackets notationlike this:
+
+print( myList[3] ) # Prints 9
+Storing Different Types of Data in Lists
+•In most programming languages if you create an array / list, then all the data in it has to be of the same type (i.e. integers, floats, strings etc).
+•In Python, because it's a dynamically typed language this is not the case and we're free to mix and match data types.
+•For example, the following is perfectly legal in Python:
+
+myList= [ 'Bananas', 123, True, float(3.14159) ]
+•Printing it out gives you exactly what you'd expect:
+
+[ 'Bananas', 123, True, 3.14159 ]
+
+Adding and Removing Elements to/from Lists
+•Lists are dynamic structures, which means that not only can we modify the data in a list, we can add things to them and remove things from them as we please. For example:
+
+shoppingList= ['Milk', 'Bread']
+shoppingList.append('Sugar')
+print(shoppingList) # Prints ['Milk', 'Bread', 'Sugar']
+shoppingList.remove('Milk')
+print(shoppingList) # Prints ['Bread', 'Sugar']
+shoppingList.insert(1, 'Bananas') # Params: index, data
+print(shoppingList)# Prints ['Bread', 'Bananas', 'Sugar']
+del shoppingList[2]
+print(shoppingList) # Prints ['Bread', 'Bananas']
+Note: When we call remove and give a specific item, only the first element that matches is removed, not all of the matching elements.
+
+Multidimensional Lists
+•We can embed lists inside other lists to create multidimensional lists if we want to, for example:
+
+first  = [1, 2, 3]
+second = [4, 5, 6]
+third  = [7, 8, 9]
+myList= [first, second, third]
+•To access the elements of a multidimensional array we use multiple sets of square brackets:
+
+print(myList) # prints [ [1,2,3], [4,5,6], [7,8,9] ]
+print(myList[0]) # prints [1,2,3]
+print(myList[1]) # prints [4,5,6]
+print(myList[2]) # prints [7,8,9]
+print(myList[0][0]) # prints 1
+print(myList[1][1]) # prints 5
+Note: We can embed lists as deeply as we'd like, so we can have a list which contains lists which contains lists which contains lists and so on.
+Tuples
+Tuples are similar to lists, but once you've put some data into a tuple then that
+data cannot be changed. The technical term for this is that tuples are
+immutable
+Tuples (Cont'd)
+This immutable property of tuples extends a little further than not being able to
+modify the data in a tuple, for example:
+You can't add elements to a tuple. Tuples have no append or extend methods.
+You can't remove elements from a tuple. Tuples have no remove or pop methods.
+We can find elements in a tuple, since this doesn’t change the tuple, and we
+can also use the in operator to check if an element exists in the tuple (because
+again, the tuple is not modified).
+So why would we want tuples at all? The reason is that it allows us to create a
+kind of read only data structure, that once set cannot be modified (not on
+purpose, not by accident, not maliciously by a third party).
+Loop Types
+•When we use loops in modern programming languages, there are only three different types of loops that we can use:
+•We can use a for loop, or
+•We can use a while loop, or
+•We can use a do-while loop equivalent (there is no exact do-whileloop in Python -but we can create something that works the same way).
+•The type of loop that we decide to use (for, whileor do-while) depends on two important factors that we have to ask ourselves:
+1.Do we know exactly how many times the loop should execute (yes/no), and
+2.Do we always want the loop to execute at least once? (yes/no)
+
+Topic 4: Strings, Substrings and Files
+Strings and Operators Recap
+•We also saw that although we couldn't use the plusoperator between a number and a non-number (such as a string), we could add together strings quite happily, like this:
+first  = "Python"
+second = " is " # Notice there are spaces either side
+third  = "great!"
+full = first + second + third
+print(full)
+
+Which gives us:
+Python is great!
+
+Multiplying Strings
+We've briefly mentioned that we can multiplystrings -so for example in Python, we can multiplya string value by a number to obtain multiples of the string, like this:
+answer = "No"
+print("Would you like some brusselssprouts?")
+print( (answer * 5) + "!" )
+The last part of this gives us:
+
+NoNoNoNoNo!
+Substrings
+When working with strings, we can extract partof a string (which is called a substring), like this:
+letters = "ABCD"
+print(letters[0])    # A
+print(letters[1])    # B
+print(letters[2])    # C
+print(letters[0:2])  # AB
+print(letters[1:-1]) # BC (-1 is the last element)
+When we use this [start:end]notation, what we're really saying is:
+Start and includethe first character we specify as the start of our range, 
+But excludethe last character that we specified as the end of our range.
+Just like the range statement: range(0, 3)gives use the set of data [0,1,2], when extracting strings using [start:end], we includethe start of the range, but excludethe last element of the range.
+
+Substrings (Cont'd)
+To print a string, we know we can use Python code like this.
+phrase = "Knowledge is power."
+print(phrase)
+But what if we only wanted to print out the first 9 characters? In this case, we
+can print out the word Knowledge (which is 9 characters) by specifying a range
+that goes from character 0 to character 9 like this:
+phrase = "Knowledge is power."
+print(phrase[0:9 ]) # Knowledge
+
+Why do we get 9 characters when we specified the range 0 to 9 (which is 10
+characters?) Because K is the 0 th character, and we get the range:
+[start location inclusive : end location exclusive]
+
+Finding Substrings
+If we want to find a substring within a string in Python, we can use the findfunction, which works like this:
+quote = "Eat when hungry, sleep when tired."
+first = quote.find("when")
+print( “'when' starts at location: {0}".format(first) )
+Which will display:
+'when' starts at location: 4
+
+The find function will return one of two integer values:
+If the substring exists in the string it will return the first character’s (positive) index of the first occurrence of the substring, or
+If the substring does not exist in the string, it will return the value -1.
+
+Finding Substrings (Cont'd)
+When we find substrings, we're not really looking for distinct words-we're just looking for an exact match anywherein the string.
+So for example, if we try out the following code:
+quote = "No good deed will go unrewarded."
+location = quote.find("go")
+print(location)
+We won't find the word "go" which comes before "unrewarded" right away -instead, we'll find the "go" in the first half of "good"!
+So the result stored in our location variable will be 3 and not 18.
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	22	23	24	25	26	27	28	29	30
+N	o	g	o	o	d	d	e	e	d	w	i	l	l	g	o	u	n	r	e	w	a	r	d	e	d	.
+
+Finding Substrings (Cont'd)
+We've only been using a single parameter with the find function, which has been the substring we want to find…
+…but, we can also provide find with a second parameter -which is the location in our source string where the function should start looking.
+For example:
+quote = "No good deed will go unpunished."
+location = quote.find("go", 4)
+print(location)
+This will start at character index 4 and look for the substring "go" -which turns up at location 18.
+What you think would happen if we'd specified to start searching at character number 3in our second find statement?
+Finding Substrings (Cont'd)
+In the previous example, if we wanted to find all the occurrences of a substring within a string, then we had to manually specify where to start searching -but this is rather 'manual', so let's automate it using a do-while loop:
+quote = "No good deed will go unrewarded."
+location = 0
+while True:
+location = quote.find("go", location)
+if (location != -1):
+print( "Found substring at: {0}".format(location) )
+location += 1
+else:
+break
+
+This will print out:
+
+Found substring at: 3
+Found substring at: 18
+Quiz: Why is a "do-while" (equivalent) loop the best kind of loop for this specific task?
+Finding Substrings (Cont'd)
+Rather than just looking for a specific substring which we specify in the code,
+we could also find all occurrences of a user provided substring, like this:
+quote = "The large print giveth & the small print taketh away."
+match = input("Please enter the substring to find: ")
+location = 0
+while True:
+location =
+quote.find (match,
+if (location !=1):
+print( "Found substring at: {0}".format(location) )
+location += 1
+else:
+break
+Finding Substrings (Cont'd)
+We might also like to count how many occurrences we find, like this:
+quote = "The large print giveth & the small print taketh away."
+match = input("Please enter the substring to find: ")
+count = 0
+location = 0
+while True:
+location = quote.find(match, location)
+if (location != -1):
+print( "Found substring at: {}".format(location) )
+location += 1
+count += 1
+else:
+break
+print("Found {0} occurrences of '{1}'".format(count, match) )
+Converting Strings to Lists of Characters
+Python allows us to easily convert a string into a list of characters via the built-in list() function, for example:
+quote = "A thing of beauty is a joy forever."
+quote_list= list(quote)
+print(quote_list)
+This will print out, as you might imagine:
+['A', ' ', 't', 'h', 'i', 'n', 'g', ' ', 'o', 'f', ' ', 'b', 'e', 'a', 'u', 't', 'y', ' ', 'i', 's', ' ', 'a', ' ', 'j', 'o', 'y', ' ', 'f', 'o', 'r', 'e', 'v', 'e', 'r', '.']
+We can join the string back together like this:
+quote2 = "" # What to put between each element
+quote2 = quote2.join(quote_list) # quote2 is now as per orig
+Try this: s = "-"; seq= ['a', 'b', 'c']; print(s.join(seq)) # Prints a-b-c
+Determining If A String Is Purely Alphabetical or Numerical
+Sometimes we may want to check if something is a number or a letter -and again, Python comes to the rescue with the isalpha() and isdigit() functions.
+Let's give it a shot:
+s = "123456"
+print( s.isdigit() ) # True -only digits in string
+s = "12Three456"
+print( s.isdigit() ) # False -not purely digits
+s = "ElvisPresley"
+print( s.isalpha() ) # True -all chars alphabetical
+s = "Elvis Presley"
+print( s.isalpha() ) # False -space ' ' is not a letter
+Working with Files in Python
+Python provides inbuilt functions for creating, writing and reading files. 
+There are two types of files that can be handled in python, normal text files and binary files (written in binary language, 0s and 1s).
+Text files: In this type of file, each line of text is terminated with a special character called EOL (End of Line), which is the new line character (‘\n’) in python by default.
+Binary files: In this type of file, there is no terminator for a line and the data is stored after converting it into machine understandable binary language.
+In this course we will be discussing only text files.
+To open a file, use open() function, which is usually used with two arguments –open(filename, mode)
+Working with Files in Python
+There are six access modes in python:
+1)‘r’–open text file for reading. If the file does not exists, raises I/O error. This is also the default mode in which file is opened.
+2)‘w’ –open the file for writing. For existing file, the data is truncated and over-written. Creates the file if the file does not exist.
+3)‘r+’ –open the file for reading and writing. Raises I/O error if the file does not exist.
+4)‘w+’ –open the file for reading and writing. For existing file, data is truncated and over-written. Creates the file if the file does not exist.
+5)‘a’ –open the file for writing. The file is created if it does not exist. The data being written will be inserted at the end, after the existing data.
+6)‘a+’ –open the file for reading and writing. The file is created if it does not exist. The data being written will be inserted at the end, after the existing data.
+Opening a File in Python
+Before we can read from a file, we have to open the file, like this:
+file = open("Names.txt", "r")
+or
+file = open("Names.txt", "w")
+or
+file = open("Names.txt", "a")
+or
+file = open("Names.txt", "r+")
+
+Reading Lines from a File
+We can open a file for reading, read a line from the file and print it like this:
+file = open("Quotes.txt", "r")
+first =
+file.readline
+print(first)
+
+Once we've read the first line of a file, each subsequent call to readline will
+read the next line of the file, so to get the second and third lines of the file we
+could write:
+second = file.readline
+print(second)
+third = file.readline
+print(third)
+file.close()
+Reading Lines from a File (Cont'd)
+As we saw, if we open a file and then read a line from the file, the next time we read a line from the file we'll get the second line of the file:
+file = open("Quotes.txt", "r")
+first = file.readline()
+second = file.readline()
+But if I close the file and then re-open it, and then read from the file again -I won't be reading the third line -I'll be reading the first line again.
+
+file.close()
+file.open("Quotes.txt", "r")
+third = file.readline()
+print(third)
+file.close() 
+
+Reading An Entire File Line by Line (one method)
+Now that we know a little about loops, and a little about files, we can write a
+small script to read every line of a file and display it on the screen, like this:
+file = open("Names.txt", "r")
+while True:
+line = file.readline
+if (line != ""):
+print(line)
+else:
+break
+# Don't forget to close the file when we're done with it
+file.close
+
+This will work... but we can do better.
+
+Reading An Entire File Line-by-Line (a better method)
+Instead of writing a "do-while" equivalent, Python can do a lot of the heavy lifting for us if we just use a for loop, likethis:
+file = open("Names.txt", "r")
+for line in file:
+print(line)
+# Don't forget to close the file when we're done with it!
+file.close()
+In the above code, Python treats our fileas a listof strings, where each line is an individual element of the list. This is much like we saw previously that we could store the names of the band members in the Beatles by using:
+beatles= ["John", "Paul", "George", "Ringo"]
+Reading An Entire File Into A List 
+Python goes even further than single line reading with readline-it allows us to read ALLthe lines in a file (however many there may be) using a single command, which is:
+readlines()
+Now, we can read an entire file into a list like this:
+file = open("Quotes.txt", "r")
+lines = file.readlines()
+print(lines[0])
+print(lines[1])
+file.close()
+Quiz: What character do you think "delimits" each line? (i.e. marks the end of each line)
+
+Counting Elements in a List (Cont'd)
+When we apply this to files, we might use code like this:
+file = open("DownAndOut.txt", "r")
+lines = file.readlines()
+lineCount= len(lines)
+print( "Line count is: {0}".format(lineCount) )
+file.close()
+If we wanted to, we could then display the file by looping through all the elements of our list and printing each out in turn like this:
+for line in range(0, lineCount):
+print(lines[line])
+Or alternatives, we could do:
+for line in lines:
+print(line)
+Writing To Files
+Now we've seen how to read from files, let's start writing our own files.
+In the example below, we'll just write the numbers 1 through to 20 into a new file called Numbers.txt:
+file = open("Numbers.txt", "w") # "w" for writing
+numbers = range(1, 21)
+for value in numbers:
+strValue= str(value)
+file.write(strValue+ "\n")
+file.close()
+Adding the \n (newline) means that each number in the file is on its own line rather than all running together to form 1234567891011121314151617181920.
+
+Writing to Files (Cont'd)
+There is one important thing to know about writing to files in Python, which is:
+We can only, ever write string data (or bytes object) to files!
+This means that if we had an integer value, or a floating point value, or a Boolean or any other type of value -before we can write it to a file, we have to first convertit into a string.
