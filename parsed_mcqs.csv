@@ -1,0 +1,31 @@
+Question,Option A,Option B,Option C,Option D,Correct Answer,Difficulty
+Q1. What is the first step in the six-step problem-solving process?,A) Analyse the problem,B) Identify the problem,C) Implement the solution,D) Generate potential solutions,B,Easy
+Q2. Which of the following best defines wicked problems?,A) Problems that have simple solutions.,B) Problems that occur regularly and are easy to solve.,"C) Problems difficult to define, with no clear solutions.",D) Problems that always have one correct answer.,C,Medium
+Q3. Which programming construct is used to repeatedly execute a block of code while a condition is true?,A) for loop,B) while loop,C) if statement,D) elif statement,B,Easy
+Q4. What does the Python function `type()` do?,A) Converts a variable into a different type.,B) Checks the size of the variable.,C) Returns the data type of a variable.,D) Assigns a type to the variable.,C,Easy
+Q5. Which operator has the highest precedence in Python?,A) Addition `+`,B) Parentheses `()`,C) Multiplication `*`,D) Division `/`,B,Easy
+Q6. What does the `input()` function return?,A) Integer,B) Float,C) String,D) Boolean,C,Easy
+"Q7. In Python, how can a string be enclosed to be defined correctly?","A) Single quotes ('), double quotes (""), or triple quotes ("""""" """""").",B) Only single quotes (' ').,"C) Only double quotes ("" "").","D) Only triple quotes ("""""" """""").",A,Easy
+Q8. Why is Python considered a strongly typed language?,A) Variables must have a pre-defined type.,"B) Variables have a type, and the type matters during operations.",C) Python doesn't allow type checking.,D) Python doesn't support reassigning variables.,B,Medium
+Q9. What will the output of the following code be?,```Python,num = 10 // 3,print(num),```,B,Medium
+Q10. Which mode is used to open an existing file for appending at the end?,A) w,B) r+,C) a,D) w+,C,Medium
+Q11. Which Python keyword is used to terminate a loop prematurely?,A) continue,B) break,C) pass,D) return,B,Easy
+"Q12. In the context of Python lists, what does the method `.append()` do?",A) Removes an item from the list.,B) Adds an item to the beginning of the list.,C) Adds an item to the end of the list.,D) Inserts an item at a specific position.,C,Easy
+Q13. What is the result of the following Python statement?,```Python,"""Hello"" * 3",```,"A) ""HelloHelloHello""",A,Easy
+Q14. Which Python statement can be used to iterate over items in a sequence?,A) if,B) for,C) while,D) elif,B,Easy
+Q15. What will the following code print?,```Python,number = 5,if number != 5:,"print(""Not Five"")",B,Easy
+Q16. What does `len()` function do in Python?,A) Finds the size of integers.,B) Determines the length of sequences.,C) Deletes an element of a sequence.,D) Multiplies strings by a given number.,B,Easy
+Q17. Which of the following is an immutable data structure in Python?,A) Lists,B) Strings,C) Dictionaries,D) Tuples,D,Medium
+Q18. Which best describes the main advantage of tuples over lists?,A) Tuples are faster and immutable.,B) Tuples support more features than lists.,C) Tuples can only contain strings.,D) Tuples cannot store multiple data types.,A,Medium
+Q19. How do you create a comment in Python?,A) /* comment */,B) # comment,C) // comment,D) <!-- comment -->,B,Easy
+Q20. What will the following code snippet return?,```Python,"""isalpha"".isalpha()",```,A) True,A,Medium
+"Q21. If a file is opened using the `w` mode, what will happen if the file already exists?",A) Raise an error.,B) Add content to the end of the existing file.,C) Overwrite the file’s content.,D) Open the file without modification.,C,Medium
+"Q22. What is the result of the Python expression `""Python""[0:4]`?","A) ""Py""","B) ""Pyth""","C) ""Python""","D) ""Pyto""",B,Medium
+Q23. What does the following line of code do?,```Python,"file = open(""example.txt"", ""r"")",```,"A) Creates a new file named ""example.txt"".",B,Medium
+"Q24. How do you convert a string `""42""` to an integer in Python?",A) int(42),B) str(42),"C) int(""42"")","D) str(""42"")",C,Easy
+Q25. What will the following line print?,```Python,"print(list(range(5, 10, 2)))",```,"A) [5, 7, 9]",A,Medium
+Q26. What is the purpose of the `find()` method in strings?,A) To find data in a file.,B) To locate the index of a substring within a string.,C) To split a string.,D) To replace part of a string.,B,Medium
+"Q27. Why might you use a ""do-while"" equivalent loop in Python?",A) To ensure the loop executes once before the condition is checked.,B) To create an infinite loop.,C) To handle unexpected errors.,D) To replace an `if` statement.,A,Medium
+Q28. Which access mode should you use to write data without overwriting existing content in a file?,A) r,B) w,C) a,D) r+,C,Medium
+"Q29. What will the statement `beatles[2]` return if `beatles = [""John"", ""Paul"", ""George"", ""Ringo""]`?","A) ""John""","B) ""Paul""","C) ""George""","D) ""Ringo""",C,Easy
+Q30. Why should we use mnemonic variable names in programming?,A) To make the code run faster.,B) To reduce the amount of memory used.,C) To improve code readability and maintainability.,D) To reduce the size of variable names.,C,Easy
