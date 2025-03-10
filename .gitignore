@@ -1,2 +1,4 @@
 .env
-qg_eval.ipynbqg_eval question_rubric.ipynb\nqg_eval question_rubric_v2.ipynb
+qg_eval.ipynb
+qg_eval question_rubric.ipynb
+qg_eval question_rubric_v2.ipynb
