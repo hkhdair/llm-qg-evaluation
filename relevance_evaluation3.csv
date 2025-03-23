@@ -1,0 +1,234 @@
+Question,Relevance to Provided Context Score,Relevance to Provided Context Justification
+"Q1. What is the first step in the six-step problem-solving process?  
+A) Analyse the problem  
+B) Identify the problem  
+C) Implement the solution  
+D) Generate potential solutions  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The question directly ties to the provided context, which explicitly outlines the six-step problem-solving process. The first step, 'Identify the problem,' is clearly mentioned in the context, making the question highly relevant."
+"Q2. Which of the following best defines wicked problems?  
+A) Problems that have simple solutions.  
+B) Problems that occur regularly and are easy to solve.  
+C) Problems difficult to define, with no clear solutions.  
+D) Problems that always have one correct answer.  
+Correct Answer: C  
+Difficulty: Medium  ",1,"The MCQ directly ties to the provided context, specifically the section on 'Characteristics of Wicked Problems,' which describes them as difficult to define, having no clear solutions, and being socially complex."
+"Q3. Which programming construct is used to repeatedly execute a block of code while a condition is true?  
+A) for loop  
+B) while loop  
+C) if statement  
+D) elif statement  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The question directly ties to the topic of loops discussed in the context, specifically the 'while loop', which is explicitly mentioned as a type of loop used in programming."
+"Q4. What does the Python function `type()` do?  
+A) Converts a variable into a different type.  
+B) Checks the size of the variable.  
+C) Returns the data type of a variable.  
+D) Assigns a type to the variable.  
+Correct Answer: C  
+Difficulty: Easy  ",1,"The MCQ directly ties to the concept of data types in Python, which is discussed in the context. Specifically, the `type()` function is mentioned as a way to determine the type of a variable, which is a key concept in the provided material."
+"Q5. Which operator has the highest precedence in Python?  
+A) Addition `+`  
+B) Parentheses `()`  
+C) Multiplication `*`  
+D) Division `/`  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The question directly ties to the Operator Precedence section in the context, which discusses the order in which operators are applied in Python, including the BODMAS rule and the use of parentheses as the highest precedence operator."
+"Q6. What does the `input()` function return?  
+A) Integer  
+B) Float  
+C) String  
+D) Boolean  
+Correct Answer: C  
+Difficulty: Easy  ",1,"The question directly ties to key concepts from the provided context, particularly the section discussing the `input()` function, which explicitly states that it always returns a string."
+"Q7. In Python, how can a string be enclosed to be defined correctly?  
+A) Single quotes ('), double quotes (""), or triple quotes ("""""" """""").  
+B) Only single quotes (' ').  
+C) Only double quotes ("" "").  
+D) Only triple quotes ("""""" """""").  
+Correct Answer: A  
+Difficulty: Easy  ",1,"The MCQ directly ties to the context provided, specifically the section on Python strings where it explains that strings can be enclosed in single quotes, double quotes, or triple quotes."
+"Q8. Why is Python considered a strongly typed language?  
+A) Variables must have a pre-defined type.  
+B) Variables have a type, and the type matters during operations.  
+C) Python doesn't allow type checking.  
+D) Python doesn't support reassigning variables.  
+Correct Answer: B  
+Difficulty: Medium  ",1,"The question directly ties to the provided context, which discusses Python's strong typing and dynamic typing characteristics, emphasizing that variables have a type and the type matters when performing operations."
+"Q9. What will the output of the following code be?  
+```Python  
+num = 10 // 3  
+print(num)  
+```  
+A) 3.33  
+B) 3  
+C) 3.0  
+D) Error  
+Correct Answer: B  
+Difficulty: Medium  ",1,"The question directly ties to the context, as it involves Python integer division, which is explained in the 'Working With Multiple Variables' section of the provided context. The context explicitly discusses how the double-slash operator (//) is used for integer division in Python."
+"Q10. Which mode is used to open an existing file for appending at the end?  
+A) w  
+B) r+  
+C) a  
+D) w+  
+Correct Answer: C  
+Difficulty: Medium  ",1,"The question directly ties to the context provided, which discusses file handling in Python, including the different modes for opening files. The 'a' mode, which is the correct answer, is explicitly mentioned in the context as a mode for appending data to an existing file."
+"Q11. Which Python keyword is used to terminate a loop prematurely?  
+A) continue  
+B) break  
+C) pass  
+D) return  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The question directly ties to the topic of loops and control flow within Python, which is relevant to the context of problem-solving, programming, and software development methodologies discussed in the provided material."
+"Q12. In the context of Python lists, what does the method `.append()` do?  
+A) Removes an item from the list.  
+B) Adds an item to the beginning of the list.  
+C) Adds an item to the end of the list.  
+D) Inserts an item at a specific position.  
+Correct Answer: C  
+Difficulty: Easy  ",1,"The question directly ties to the key concept of Python lists, which is discussed in the provided context. The context explicitly mentions the `.append()` method as a way to add elements to a list, making the question highly relevant."
+"Q13. What is the result of the following Python statement?  
+```Python  
+""Hello"" * 3  
+```  
+A) ""HelloHelloHello""  
+B) ""Hello 3""  
+C) Error  
+D) ""Hello+Hello+Hello""  
+Correct Answer: A  
+Difficulty: Easy  ",1,"The question directly ties to the context, specifically the section on 'Multiplying Strings', which explains that multiplying a string by a number results in the string being repeated that number of times. This is a key concept from the provided context."
+"Q14. Which Python statement can be used to iterate over items in a sequence?  
+A) if  
+B) for  
+C) while  
+D) elif  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The question directly ties to the context provided, which discusses loops in Python, specifically mentioning the 'for' loop as one of the three types of loops used in modern programming languages. The question is aligned with the topic of loops and their application in iterating over sequences, which is a key concept in the context."
+"Q15. What will the following code print?  
+```Python  
+number = 5  
+if number != 5:  
+    print(""Not Five"")  
+else:  
+    print(""Five"")  
+```  
+A) Not Five  
+B) Five  
+C) Error: Syntax Issue  
+D) Nothing  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The question directly ties to the key concepts of conditionals and if-else statements, which are covered in the provided context under the topic of 'Conditionals, Lists and Loops'."
+"Q16. What does `len()` function do in Python?  
+A) Finds the size of integers.  
+B) Determines the length of sequences.  
+C) Deletes an element of a sequence.  
+D) Multiplies strings by a given number.  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The `len()` function in Python determines the length of sequences, such as lists or strings, which is directly related to the context of working with sequences, lists, and strings as discussed in the provided material."
+"Q17. Which of the following is an immutable data structure in Python?  
+A) Lists  
+B) Strings  
+C) Dictionaries  
+D) Tuples  
+Correct Answer: D  
+Difficulty: Medium  ",1,"The question directly ties to the key concept of immutability discussed in the context under 'Tuples'. The context explicitly describes tuples as immutable data structures, making the question highly relevant."
+"Q18. Which best describes the main advantage of tuples over lists?  
+A) Tuples are faster and immutable.  
+B) Tuples support more features than lists.  
+C) Tuples can only contain strings.  
+D) Tuples cannot store multiple data types.  
+Correct Answer: A  
+Difficulty: Medium  ",1,"The question directly ties to the context's discussion on tuples vs. lists and their immutability, highlighting tuples' advantage as faster and immutable. This aligns with the provided content on tuples as read-only data structures."
+"Q19. How do you create a comment in Python?  
+A) /* comment */  
+B) # comment  
+C) // comment  
+D) <!-- comment -->  
+Correct Answer: B  
+Difficulty: Easy  ",1,"The question directly ties to a key concept in Python programming, which is the use of comments. The context provided discusses Python syntax and programming basics, making this question highly relevant."
+"Q20. What will the following code snippet return?  
+```Python  
+""isalpha"".isalpha()  
+```  
+A) True  
+B) False  
+C) Error  
+D) None  
+Correct Answer: A  
+Difficulty: Medium  ",1,"The question directly ties to the provided context, specifically the section on determining if a string is purely alphabetical or numerical using the isalpha() function. This function is explicitly discussed in the context, making the question highly relevant."
+"Q21. If a file is opened using the `w` mode, what will happen if the file already exists?  
+A) Raise an error.  
+B) Add content to the end of the existing file.  
+C) Overwrite the file’s content.  
+D) Open the file without modification.  
+Correct Answer: C  
+Difficulty: Medium  ",1,"The question directly relates to the context provided in the 'Working with Files in Python' section, which explains the different file access modes, including the 'w' mode. The context explicitly states that opening a file in 'w' mode will overwrite the file's content, which is the correct answer to the MCQ."
+"Q22. What is the result of the Python expression `""Python""[0:4]`?  
+A) ""Py""  
+B) ""Pyth""  
+C) ""Python""  
+D) ""Pyto""  
+Correct Answer: B  
+Difficulty: Medium  ",1,"The question directly ties to the concept of substrings in Python, which is covered in the provided context under the topic 'Strings, Substrings and Files'. The context explains how to extract substrings using the [start:end] notation, which is exactly what the question is testing."
+"Q23. What does the following line of code do?  
+```Python  
+file = open(""example.txt"", ""r"")  
+```  
+A) Creates a new file named ""example.txt"".  
+B) Opens the file ""example.txt"" for reading.  
+C) Writes data to the file ""example.txt"".  
+D) Appends data to the file ""example.txt"".  
+Correct Answer: B  
+Difficulty: Medium  ",1,"The question directly ties to the provided context, which discusses file handling in Python, including the use of the 'open' function and different access modes such as 'r' for reading files."
+"Q24. How do you convert a string `""42""` to an integer in Python?  
+A) int(42)  
+B) str(42)  
+C) int(""42"")  
+D) str(""42"")  
+Correct Answer: C  
+Difficulty: Easy  ",1,"The question directly ties to the concept of type conversion, specifically converting strings to integers, which is a key topic covered in the provided context under sections discussing Python's data types and type casting."
+"Q25. What will the following line print?  
+```Python  
+print(list(range(5, 10, 2)))  
+```  
+A) [5, 7, 9]  
+B) [6, 8, 10]  
+C) Error  
+D) [5, 6, 7, 8, 9, 10]  
+Correct Answer: A  
+Difficulty: Medium  ",1,"The question directly ties to the concept of the range function in Python, which is discussed in the context under 'Creating and Working With Ranges of Numbers'. The explanation of how the range function works, including the use of start, stop, and step parameters, is directly relevant to understanding the correct answer."
+"Q26. What is the purpose of the `find()` method in strings?  
+A) To find data in a file.  
+B) To locate the index of a substring within a string.  
+C) To split a string.  
+D) To replace part of a string.  
+Correct Answer: B  
+Difficulty: Medium  ",1,"The question directly ties to the key concept of the `find()` method in strings, which is explicitly discussed in the context. The context explains that the `find()` method is used to locate the index of a substring within a string, which aligns perfectly with the correct answer provided."
+"Q27. Why might you use a ""do-while"" equivalent loop in Python?  
+A) To ensure the loop executes once before the condition is checked.  
+B) To create an infinite loop.  
+C) To handle unexpected errors.  
+D) To replace an `if` statement.  
+Correct Answer: A  
+Difficulty: Medium  ",1,"The question is directly relevant to the context as it ties to the discussion of loops, specifically the 'do-while' equivalent loop, which is mentioned in the context under 'Loop Types'. The context explains the scenarios where such loops are used, aligning with the correct answer option A."
+"Q28. Which access mode should you use to write data without overwriting existing content in a file?  
+A) r  
+B) w  
+C) a  
+D) r+  
+Correct Answer: C  
+Difficulty: Medium  ",1,"The question directly ties to the context provided, which discusses file access modes in Python, specifically mentioning modes like 'w', 'r', and 'a'. The correct answer, 'C) a', aligns with the context, which explains that 'a' mode appends data to the file without overwriting existing content."
+"Q29. What will the statement `beatles[2]` return if `beatles = [""John"", ""Paul"", ""George"", ""Ringo""]`?  
+A) ""John""  
+B) ""Paul""  
+C) ""George""  
+D) ""Ringo""  
+Correct Answer: C  
+Difficulty: Easy  ",1,"The question directly ties to the context provided, which discusses lists and indexing in Python. The example of the `beatles` list is explicitly mentioned in the context, making this question highly relevant."
+"Q30. Why should we use mnemonic variable names in programming?  
+A) To make the code run faster.  
+B) To reduce the amount of memory used.  
+C) To improve code readability and maintainability.  
+D) To reduce the size of variable names.  
+Correct Answer: C  
+Difficulty: Easy  ",0,"The MCQ does not directly tie to any key concepts, examples, or terminology from the provided context. The context focuses on problem-solving, programming languages, and software development methodologies, but does not discuss variable naming conventions or mnemonic variable names."
